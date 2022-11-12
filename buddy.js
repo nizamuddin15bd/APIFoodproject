@@ -15,6 +15,6 @@ const displayBuddies = data => {
         p.innerText = `
         first Name: ${buddy.name.last}.last Name ${buddy.name.last}. phone Number: ${buddy.phone}. Email: ${buddy.email}
         `;
-        buddiesDiv.appendChild(p);
+        buddiesDiv.appendChild(p)
     }
 }
