@@ -7,7 +7,7 @@ loadBuddies();
 
 const displayBuddies = data => {
     const buddies = data.results;
-    const buddiesDiv = document.getElementById('buddies')
+    const buddiesDiv = document.getElementById('buddies');
     // console.log(buddies);
     for (const buddy of buddies) {
         console.log(buddy)
